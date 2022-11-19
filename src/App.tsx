@@ -2,10 +2,11 @@ import React from 'react';
 import { Canvas } from '@react-three/fiber';
 
 import Box from './components/Three/Box';
+import ViewsLayout from './layouts/views';
 
 const App = () => {
   return (
-    <div>
+    <ViewsLayout>
     App
     <br />
 
@@ -13,7 +14,7 @@ const App = () => {
     <Box />
     </Canvas>
 
-    </div>
+    </ViewsLayout>
   );
 }
 
