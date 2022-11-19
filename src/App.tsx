@@ -6,15 +6,15 @@ import ViewsLayout from './layouts/views';
 
 const App = () => {
     return (
-            <ViewsLayout>
-                App
-                <br />
+        <ViewsLayout>
+            App
+            <br />
 
-                <Canvas>
-                <Box />
-                </Canvas>
+            <Canvas>
+            <Box />
+            </Canvas>
 
-            </ViewsLayout>
+        </ViewsLayout>
     );
 }
 
