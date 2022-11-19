@@ -5,17 +5,17 @@ import Box from './components/Three/Box';
 import ViewsLayout from './layouts/views';
 
 const App = () => {
-  return (
-    <ViewsLayout>
-    App
-    <br />
+    return (
+            <ViewsLayout>
+                App
+                <br />
 
-    <Canvas>
-    <Box />
-    </Canvas>
+                <Canvas>
+                <Box />
+                </Canvas>
 
-    </ViewsLayout>
-  );
+            </ViewsLayout>
+    );
 }
 
 export default App;
